@@ -1,0 +1,76 @@
+
+**** 05/20/21 21:06:35 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-vdc"  [ E:\An2_Sem2\Tehnici_CAD\Proiect\dim-PSpiceFiles\SCHEMATIC1\vdc.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "vdc.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../dimesionare_led.lib" 
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN V_V1 0.5 10 0.5 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source DIM
+D_D18         N20767 0 LED_ALBASTRU 
+V_V1         N20767 0 1
+
+**** RESUMING vdc.cir ****
+.END
+
+**** 05/20/21 21:06:35 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-vdc"  [ E:\An2_Sem2\Tehnici_CAD\Proiect\dim-PSpiceFiles\SCHEMATIC1\vdc.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               LED_ALBASTRU    
+          IS  120.050000E-18 
+           N    4.3893       
+          RS   14.259        
+
+
+
+          JOB CONCLUDED
+
+**** 05/20/21 21:06:35 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-vdc"  [ E:\An2_Sem2\Tehnici_CAD\Proiect\dim-PSpiceFiles\SCHEMATIC1\vdc.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .02
+

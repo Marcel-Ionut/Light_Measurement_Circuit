@@ -1,0 +1,22 @@
+** Profile: "SCHEMATIC1-tran"  [ E:\An2_Sem2\Tehnici_CAD\Proiect\main-PSpiceFiles\SCHEMATIC1\tran.sim ] 
+
+** Creating circuit file "tran.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../dimesionare_led.lib" 
+.LIB "../../../main-pspicefiles/main.lib" 
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 10s 0 
+.TEMP -50 -25 0 27 50 75
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

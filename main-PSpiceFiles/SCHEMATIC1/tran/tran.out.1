@@ -1,0 +1,69 @@
+
+**** 05/20/21 19:20:05 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-tran"  [ E:\An2_Sem2\Tehnici_CAD\Proiect\main-PSpiceFiles\SCHEMATIC1\tran.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "tran.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../dimesionare_led.lib" 
+.LIB "../../../main-pspicefiles/main.lib" 
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 10s 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source MAIN
+X_U5         N09234 0 VCC 0 N16519 uA741
+V_V2         -VCC 0 -16
+X_U4         N09234 N09834 VCC -VCC N09900 uA741
+V_V1         VCC 0 16
+X_U3         N09234 N09690 VCC -VCC N09756 uA741
+X_U2         N09234 N13610 VCC -VCC N09568 uA741
+X_U1         N09234 N09294 VCC -VCC N09472 uA741
+R_R2         N09568 N19094  1.36k TC=0,0 
+R_R4         N09900 N17329  1.4k TC=0,0 
+R_R5         N09756 N09654  0 TC=0,0 
+----------------------------$
+ERROR(ORPSIM-16144): Value may not be 0
+R_R6         N09234 VCC  5k TC=0,0 
+X_R7         0 N09234 N09234 POT PARAMS: SET={SET} VALUE=20k
+R_R8         0 N09294  2.55k TC=0,0 
+R_R9         N09294 VCC  1k TC=0,0 
+R_R11         0 N13610  2.13k TC=0,0 
+R_R13         0 N09690  1.77k TC=0,0 
+R_R15         0 N09834  597 TC=0,0 
+R_R16         N09472 N17714  500 TC=0,0 
+R_R17         N16519 N18668  1.4k TC=0,0 
+R_R10         VCC N13610  1k TC=0,0 
+R_R12         VCC N09690  1k TC=0,0 
+R_R14         VCC N09834  1k TC=0,0 
+D_D15         N09654 N09568 LED_GALBEN 
+D_D17         N17714 0 LED_ROSU 
+D_D18         N18668 N09900 LED_ALBASTRU 
+D_D14         N17329 N09756 LED_VERDE 
+D_D16         N19094 N09472 LED_PORTOCALIU 
+.PARAM  set=0.5
+
+**** RESUMING tran.cir ****
+.END
+

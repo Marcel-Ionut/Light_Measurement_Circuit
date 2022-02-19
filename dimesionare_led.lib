@@ -1,0 +1,27 @@
+* PSpice Model Editor - Version 17.2.0
+*$
+.MODEL led_rosu D
++ IS=410.58E-12
++ N=3.6144
++ RS=9.4285
+*$
+.MODEL led_portocaliu D
++ IS=2.7463E-12
++ N=2.6136
++ RS=6.3120E-6
+*$
+.MODEL led_galben D
++ IS=3.2616E-6
++ N=4.9950
++ RS=4.4854
+*$
+.MODEL led_verde D
++ IS=943.61E-12
++ N=3.4471
++ RS=8.0431
+*$
+.MODEL led_albastru D
++ IS=120.05E-18
++ N=4.3893
++ RS=14.259
+*$

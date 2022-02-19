@@ -1,0 +1,228 @@
+("led_albastru"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"AN")
+        ("NODE_AN"	"AN")
+        ("NODE_CAT"	"CAT")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops")
+    ("model_params"
+        ("level_0"
+        )
+    )
+)
+("led_galben"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"AN")
+        ("NODE_AN"	"AN")
+        ("NODE_CAT"	"CAT")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops")
+    ("model_params"
+        ("level_0"
+        )
+    )
+)
+("led_portocaliu"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"AN")
+        ("NODE_AN"	"AN")
+        ("NODE_CAT"	"CAT")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops")
+    ("model_params"
+        ("level_0"
+            ("IS"
+                ("units"	"A")
+            )
+            ("RS"
+                ("units"	"Ohm")
+            )
+            ("N"
+                ("units"	"")
+            )
+            ("TT"
+                ("units"	"sec")
+            )
+            ("CJO"
+                ("units"	"F")
+            )
+            ("VJ"
+                ("units"	"V")
+            )
+            ("M"
+                ("units"	"")
+            )
+            ("EG"
+                ("units"	"eV")
+            )
+            ("XTI"
+                ("units"	"")
+            )
+            ("KF"
+                ("units"	"")
+            )
+            ("AF"
+                ("units"	"")
+            )
+            ("FC"
+                ("units"	"")
+            )
+            ("BV"
+                ("units"	"V")
+            )
+            ("IBV"
+                ("units"	"A")
+            )
+        )
+    )
+)
+("led_rosu"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"AN")
+        ("NODE_AN"	"AN")
+        ("NODE_CAT"	"CAT")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops")
+    ("model_params"
+        ("level_0"
+            ("IS"
+                ("units"	"A")
+            )
+            ("RS"
+                ("units"	"Ohm")
+            )
+            ("N"
+                ("units"	"")
+            )
+            ("TT"
+                ("units"	"sec")
+            )
+            ("CJO"
+                ("units"	"F")
+            )
+            ("VJ"
+                ("units"	"V")
+            )
+            ("M"
+                ("units"	"")
+            )
+            ("EG"
+                ("units"	"eV")
+            )
+            ("XTI"
+                ("units"	"")
+            )
+            ("KF"
+                ("units"	"")
+            )
+            ("AF"
+                ("units"	"")
+            )
+            ("FC"
+                ("units"	"")
+            )
+            ("BV"
+                ("units"	"V")
+            )
+            ("IBV"
+                ("units"	"A")
+            )
+        )
+    )
+)
+("led_verde"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"AN")
+        ("NODE_AN"	"AN")
+        ("NODE_CAT"	"CAT")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops")
+    ("model_params"
+        ("level_0"
+            ("IS"
+                ("units"	"A")
+                ("description"	"Saturation current")
+            )
+            ("RS"
+                ("units"	"Ohm")
+                ("description"	"Ohmic resistance")
+            )
+            ("N"
+                ("units"	"")
+                ("description"	"Emission coefficient")
+            )
+            ("TT"
+                ("units"	"sec")
+                ("description"	"Transit time")
+            )
+            ("CJO"
+                ("units"	"F")
+                ("description"	"Junction capacitance")
+            )
+            ("VJ"
+                ("units"	"V")
+                ("description"	"Junction potential")
+            )
+            ("M"
+                ("units"	"")
+                ("description"	"Grading coefficient")
+            )
+            ("EG"
+                ("units"	"eV")
+                ("description"	"Activation energy")
+            )
+            ("XTI"
+                ("units"	"")
+                ("description"	"Isat temperature exp")
+            )
+            ("KF"
+                ("units"	"")
+                ("description"	"Flicker noise coef.")
+            )
+            ("AF"
+                ("units"	"")
+                ("description"	"Flicker noise exp.")
+            )
+            ("FC"
+                ("units"	"")
+                ("description"	"Depletion cap. coef.")
+            )
+            ("BV"
+                ("units"	"V")
+                ("description"	"Rev breakdown volt")
+            )
+            ("IBV"
+                ("units"	"A")
+                ("description"	"I at V-breakdown")
+            )
+        )
+    )
+)

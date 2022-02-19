@@ -1,0 +1,8 @@
+* PSpice Model Editor - Version 17.2.0
+*$
+.MODEL led D
++ IS=10.473E-21
++ N=.98568
++ RS=7.0815E-3
+
+*$

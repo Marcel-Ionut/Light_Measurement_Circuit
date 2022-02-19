@@ -1,0 +1,8 @@
+STATUS: PSpice Schematics to Capture translator (17.2.0.d001)
+STATUS:  
+STATUS: Translator started at Thursday, May 20, 2021 13:00:16
+STATUS: c:\cadence\spb_17.2\tools\bin\sch2cap -f "E:\An2_Sem2\Tehnici_CAD\Proiect\dimesionare_led.lib" -o "E:\An2_Sem2\Tehnici_CAD\Proiect\dimesionare_led.olb" -i C:\SPB_Data\cdssetup\OrCAD_PSpice/17.2.0/PSpice.ini
+INFO(ORSCH-1029): Using existing library 'c:\cadence\spb_17.2\tools\Capture\Library\PSpice\modeled.etc'.
+INFO(ORSCH-1031): Created new library 'E:\An2_Sem2\Tehnici_CAD\Proiect\dimesionare_led.olb'.
+STATUS: Translator stopped at Thursday, May 20, 2021 13:00:16
+STATUS: 0 Error messages, 0 Warning messages
